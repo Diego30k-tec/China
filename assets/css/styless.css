@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* ============== ESTILOS PERSONALIZADOS ============== */
+
+/* boby */
+body {
+  font-family: "Bitter", Arial, sans-serif;
+}
+
+/* Logo */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #e79743 !important;
+}
+
+/* Efecto hover en tarjetas de producto */
+.product-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Botón "+" circular */
+.btn-add {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Breadcrumb sin fondo */
+.breadcrumb {
+  background-color: transparent;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #6d9fd0;
+  border-top: 1px solid #dee2e6;
+  margin-top: 3rem;
+}
+
+/* Responsive: Ajuste en pantallas pequeñas */
+@media (max-width: 768px) {
+  .search-form {
+    flex-direction: column;
+  }
+  .search-form input {
+    margin-bottom: 0.5rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
