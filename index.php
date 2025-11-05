@@ -235,7 +235,7 @@
       <div class="row">
         <div class="col-md-4">
           <h5 class="fw-bold">CHINA WORK</h5>
-          <p class="small text-muted">Tu local de confianza para comer sabreoso.</p>
+          <p class="small text-muted">Tu local de confianza para comer sabroso.</p>
         </div>
         <div class="col-md-4">
           <h6>Enlaces</h6>
@@ -289,4 +289,5 @@
   <?php unset($_SESSION['error']); endif; ?>
 
 </body>
+
 </html>
